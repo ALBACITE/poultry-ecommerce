@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eef6ee"/>
+      <stop offset="100%" stop-color="#f7f4e8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <!-- sun -->
+  <circle cx="700" cy="80" r="45" fill="#f39c12" opacity="0.9"/>
+  <!-- field -->
+  <rect y="420" width="800" height="180" fill="#c9e2ae"/>
+  <path d="M0 420 Q200 400 400 420 T800 420" fill="none" stroke="#a8d06e" stroke-width="6" stroke-linecap="round"/>
+  <!-- coop -->
+  <rect x="520" y="300" width="180" height="120" fill="#d4a017"/>
+  <polygon points="500 300 610 240 720 300" fill="#c0392b"/>
+  <rect x="560" y="340" width="40" height="60" fill="#ffffff" opacity="0.9"/>
+  <!-- chicken hero -->
+  <ellipse cx="300" cy="380" rx="110" ry="100" fill="#f5f5f5"/>
+  <circle cx="400" cy="300" r="52" fill="#f5f5f5"/>
+  <path d="M370 270 L385 230 L400 270 L415 228 L430 272 L445 298" fill="none" stroke="#c0392b" stroke-width="12" stroke-linecap="round"/>
+  <path d="M442 298 L480 298 L460 322 Z" fill="#f39c12"/>
+  <circle cx="412" cy="294" r="6" fill="#222"/>
+  <ellipse cx="472" cy="310" rx="16" ry="12" fill="#c0392b"/>
+  <ellipse cx="240" cy="390" rx="58" ry="46" fill="#e0e0e0"/>
+  <path d="M390 380 L390 440" stroke="#e67e22" stroke-width="8" stroke-linecap="round"/>
+  <path d="M390 440 L380 450" stroke="#e67e22" stroke-width="8" stroke-linecap="round"/>
+  <path d="M390 440 L400 450" stroke="#e67e22" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="300" cy="460" rx="85" ry="22" fill="#000000" opacity="0.12"/>
+</svg>
